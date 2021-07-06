@@ -1,0 +1,42 @@
+#logo{
+    height: 30px; 
+}
+html{
+    background-image: url("../images/city.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;}
+
+
+h1.display-4{
+    position: center; 
+}  
+
+h1{
+    font-family: 'Lobster', sans-serif;
+    font-size: 80px; 
+    color: white; 
+}
+.card-title{
+    color: white; 
+}
+p{
+    color: white; 
+}
+.jumbotron{
+    text-align: center;
+    background-color:rgb(57, 50, 63);
+}
+.card{
+    background-color: rgb(57, 50, 63); 
+}
+#navbarNavAltMarkup{
+    background-color: rgb(231, 169, 144);
+}
+body{
+    background-image: url("../images/mim.jpg");
+    background-size: cover; 
+    background-attachment: fixed; 
+    background-repeat: no-repeat; 
+}
