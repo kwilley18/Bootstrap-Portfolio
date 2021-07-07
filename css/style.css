@@ -1,13 +1,9 @@
 #logo{
     height: 30px; 
 }
-html{
-    background-image: url("../images/city.jpg") no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;}
-
+.container{
+  padding: 25px;
+}
 
 h1.display-4{
     position: center; 
@@ -21,22 +17,30 @@ h1{
 .card-title{
     color: white; 
 }
+a{
+    color: inherit;
+}
+a:hover{
+    color: white; 
+}
 p{
     color: white; 
 }
 .jumbotron{
     text-align: center;
-    background-color:rgb(57, 50, 63);
+    background-color:rgb(57, 50, 63, 0.5);
 }
 .card{
     background-color: rgb(57, 50, 63); 
 }
-#navbarNavAltMarkup{
-    background-color: rgb(231, 169, 144);
-}
+
 body{
     background-image: url("../images/mim.jpg");
     background-size: cover; 
     background-attachment: fixed; 
     background-repeat: no-repeat; 
 }
+.btn-secondary{
+    background-color: rgb(57, 50, 63);
+}
+
