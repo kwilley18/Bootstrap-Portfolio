@@ -9,7 +9,7 @@
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="css/style.css">
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <!--script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
@@ -19,12 +19,12 @@
       </head>
 
     <body>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navbarNavAltMarkup">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-default" id="navbarNavAltMarkup" data-toggle="collapse">
            <a class="navbar-brand" href="index.html">
                <img src="images/plogo.png" id="logo">
            </a>
            <!--a class="navbar-brand" href="#">Default</a-->
-           <div class="collapse navbar-collapse" >
+           <div class="collapse navbar-collapse navbar-header" >
             <div class="navbar-nav">
                 <!--a class="navbar-brand" href="#">Default</a-->
                     <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
@@ -52,11 +52,45 @@
         </div>
 
     <!--WORK SECTION-->   
-          <h1 class="display-4 text-center">Work</h1>
-            <div class="container" id="work">
-                <div class="row justify-content-md-center">
-                  <div class="col-lg-4 mb-3">
-                    <div class="card" style="width: 18rem;">
+          <h1 class="display-4 text-center" id="work">Work</h1>
+        <div class="container-fluid">
+          <div class="card-deck">
+            <div class="card mb-3">
+              <img src="images/placeholder-image.png" class="card-img-top" alt="POSNcard">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </div>
+            </div>
+            <div class="card mb-3">
+              <img src="images/placeholder-image.png" class="card-img-top" alt="POSNcard">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </div>
+            </div>
+            <div class="card">
+              <img src="images/placeholder-image.png" class="card-img-top" alt="POSNcard">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </div>
+            </div>
+          </div>
+</div>
+            <!--div class="container " id="work">
+                <div class="row">
+                  <div class="col-sm-6 ">
+                    <div class="card" style="width: 50%;">
                      <img src="images/posn.png" class="card-img-top" alt="POSNcard">
                         <div class="card-body">
                         <h5 class="card-title">Personal Online Social Network</h5>
@@ -65,19 +99,21 @@
                         </div>               
                   </div>
                 </div>
-                  <div class="col-lg-4 mb-3">
-                    <div class="card" style="width: 18rem;">
+
+                  <div class="col-sm-6 mb-3">
+                    <div class="card" style="width: 50%;">
                         <img src="images/posn.png" class="card-img-top" alt="POSNcard">
                            <div class="card-body">
                            <h5 class="card-title">Personal Online Social Network</h5>
                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                            <a href="#" class="btn btn-primary">More Info</a>
                            </div>               
-                   </div></div>
+                    </div>
+                  </div>
 
                   
-                </div>
-                <div class="row d-flex justify-content-center">
+            </div>
+                <div class="row mx-auto d-flex justify-content-center">
                     <div class="col-lg-4 mb-3">
                       <div class="card" style="width: 18rem;">
                        <img src="images/posn.png" class="card-img-top" alt="POSNcard">
@@ -99,7 +135,7 @@
                     
                   </div>            
             
-            </div>
+            </div-->
     <!--SKILLS SECTION-->
             <h1 class="display-4 text-center">Skills</h1>
                     <div class="container-fluid">
