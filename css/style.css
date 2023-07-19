@@ -28,14 +28,14 @@ p{
 }
 .jumbotron{
     text-align: center;
-    background-color:rgb(57, 50, 63, 0.5);
+    background-color:white;
 }
 .card{
     background-color: rgb(57, 50, 63); 
 }
 
 body{
-    background-color: gray;
+    background-color: white;
     background-size: cover; 
     background-attachment: fixed; 
     background-repeat: no-repeat; 
