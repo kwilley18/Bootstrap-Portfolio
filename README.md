@@ -2,7 +2,7 @@
 
 ## Description 
 
-This is a demonstration of Bootstrap. 
+This is a professional website for a project desgner. Project is currently in progress. 
 
 ## Table of Contents
 * [Installation](#installation) 
@@ -11,9 +11,7 @@ This is a demonstration of Bootstrap.
 
 ## Installation 
 Unzip the file and click onto index.html
-The webpage should look like the following screenshot
 
-<img src="Screen Shot 2021-09-09 at 5.22.31 PM.png"> 
 
 ## Usage 
 See installation 
